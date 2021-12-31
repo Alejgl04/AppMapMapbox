@@ -1,0 +1,28 @@
+@import "../../../../styles.scss";
+
+.map-container {
+  width: $width;
+  height: $heigth;
+}
+
+.list-group{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 99;
+  
+  li {
+    cursor: pointer;
+  }
+}
+
+.row {
+  background-color: white;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  padding: 10px;
+  z-index: 999;
+  width: 400px;
+}
